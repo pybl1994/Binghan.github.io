@@ -2,11 +2,11 @@
 <!--
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Free for personal and commercial use under the CCA 3.0 license
 -->
 <html>
   <head>
-    <title>Binghan Liu | Astrophysicist & Data Explorer</title>
+    <title>Binghan Liu | Exoplanetary Researcher & Data Explorer</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -18,6 +18,7 @@
         <h1><a href="index.html">Binghan Liu</a></h1>
         <nav class="links">
           <ul>
+            <!-- kept these as in-page anchors -->
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -26,6 +27,7 @@
       </header>
 
       <div id="main">
+        <!-- ========== KEEP YOUR MAIN CONTENT ========== -->
         <article class="post" id="about">
           <header>
             <div class="title">
@@ -33,7 +35,9 @@
               <p>PhD in Exoplanetary Climate Modeling | Simulating Alien Worlds</p>
             </div>
           </header>
-          <p>I am Binghan Liu, a recent PhD graduate from the University of Leeds, specializing in the simulation of Earth-like exoplanet climates using WACCM6. My research explores how orbital parameters such as eccentricity and tidal locking affect planetary habitability and atmospheric observables. I’m now transitioning into data science and education technology in Canada.</p>
+          <p>I am a recent PhD graduate in Astronomy from the University of Leeds (UK). My research mainly focused on simulating Earth-like exoplanet climates using the CESM2-WACCM6 Earth system model. My thesis explored how orbital configurations—such as eccentricity and tidal locking—affect planetary climate, habitability, and observational signatures.</p>
+          <p>Before my PhD, I earned an MSc in Astrophysics from Queen Mary University of London and a BSc in Astronomy and Mathematics from the University of British Columbia in Canada. My academic interests span planetary science, atmospheric dynamics, and data-driven modeling.</p>
+          <p>Currently based in Vancouver, I am transitioning into data science and educational roles. I'm particularly excited about applying research-level analytical thinking and simulation tools to real-world problems. I’m also passionate about science communication, interdisciplinary collaboration, and supporting diversity in STEM.</p>
         </article>
 
         <article class="post" id="projects">
@@ -42,14 +46,13 @@
               <h2>Highlighted Research Projects</h2>
             </div>
           </header>
-          <h3>Higher Water Loss on Earth-like Exoplanets in Eccentric Orbits</h3>
-          <p>Published in MNRAS (Sep 2023): Demonstrated that orbital eccentricity can significantly raise global temperatures and increase water vapor escape from the atmosphere, potentially altering the long-term habitability of planets.</p>
+          <h3><a href="https://doi.org/10.1093/mnras/stad1828" target="_blank">Higher Water Loss on Earth-like Exoplanets in Eccentric Orbits</a></h3>
+          <p>Published in MNRAS (Sep 2023): Demonstrated that orbital eccentricity can significantly raise global temperatures and increase water vapor escape. <a href="https://doi.org/10.1093/mnras/stad1828" target="_blank">[Read paper]</a></p>
+          <h3><a href="https://doi.org/10.1093/mnras/stad2472" target="_blank">Eccentric Orbits May Enhance the Habitability of Earth-like Exoplanets</a></h3>
+          <p>Published in MNRAS (Aug 2024): Found that moderate eccentricity can extend habitable zones by distributing heat and reducing ice cover. <a href="https://doi.org/10.1093/mnras/stad2472" target="_blank">[Read paper]</a></p>
 
-          <h3>Eccentric Orbits May Enhance the Habitability of Earth-like Exoplanets</h3>
-          <p>Published in MNRAS (Aug 2024): Found that moderate eccentricity can extend habitable zones by distributing heat and reducing ice cover, with implications for planetary habitability and observation strategies.</p>
-
-          <h3>Climate Simulation of Proxima Centauri b</h3>
-          <p>Ongoing: Simulating a tidally locked ocean world with reduced ozone due to weak UV flux. Despite the cold average temperature, the planet supports a liquid water region at the substellar point.</p>
+		  <h3><a href="https://etheses.whiterose.ac.uk/id/eprint/36479/" target="_blank">Climate Simulation of Proxima Centauri b</a></h3>
+          <p>Published in White Rose eTheses Online (Mar 2025) for the 3rd science chapter of my PhD thesis. Simulating a tidally locked Earth-like world: Proxima Centauri b. Despite the cold average temperature, the planet supports a liquid water region at the substellar point. <a href="https://etheses.whiterose.ac.uk/id/eprint/36479/" target="_blank">[Read paper]</a></p>
         </article>
 
         <article class="post" id="contact">
@@ -65,14 +68,22 @@
       <section id="sidebar">
         <section id="intro">
           <header>
-            <h2>Binghan Liu</h2>
-            <p>Astrophysicist | Data Explorer | Curious Mind</p>
-          </header>
-        </section>
+            <!-- Force only this to be uppercase -->
+            <h2 style="margin-bottom:1em; text-transform:uppercase;">BINGHAN LIU</h2>
 
-        <section class="blurb">
-          <h2>Bio</h2>
-          <p>Originally from China, I moved to Canada as a teenager and later earned my MSc in Astrophysics at Queen Mary University of London. My PhD work combined planetary science, climate physics, and 3D atmospheric modeling. I'm passionate about science communication and applying simulation & data tools to real-world challenges.</p>
+            <!-- Override the global uppercase for this block -->
+            <div style="font-size:0.95em; line-height:1.6; margin-bottom:1em; text-transform:none;">
+              <p><em>Knowledge begins with the known, and curiosity takes it further.</em></p>
+            </div>
+
+            <!-- Changed: sidebar links now point to separate .html files -->
+            <ul style="list-style:none; padding-left:0; margin-top:0;">
+              <li style="margin-bottom:0.8em;"><a href="research.html" style="font-weight:bold;">→ Exoplanetary Researcher</a></li>
+              <li style="margin-bottom:0.8em;"><a href="data.html" style="font-weight:bold;">→ Data Explorer</a></li>
+              <li style="margin-bottom:0.8em;"><a href="teaching.html" style="font-weight:bold;">→ Academic Mentor</a></li>
+              <li><a href="curious.html" style="font-weight:bold;">→ Curious Mind</a></li>
+            </ul>
+          </header>
         </section>
 
         <section id="footer">
@@ -84,11 +95,10 @@
         </section>
       </section>
 
-    </div>
+    </div><!-- #wrapper -->
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
-</html>
+    <script src="assets/
